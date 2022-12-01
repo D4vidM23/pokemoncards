@@ -1,0 +1,120 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.card {
+  height: 300px;
+  width: 220px;
+  border: 7px solid #ebd143;
+  background-color: #b671b3;
+  border-radius: 13px;
+}
+
+.name {
+  font-size: 14px;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+.hp {
+  font-size: 8px;
+  margin-top: -10px;
+  margin-left: 135px;
+}
+
+.numberhp {
+  font-size: 14px;
+  margin-top: -15px;
+  margin-left: 20px;
+}
+
+.image {
+  background-color: white;
+  margin-top: 1px;
+  margin-left: 15px;
+  height: 120px;
+  width: 190px;
+  border: 2px solid #8a8a8a;
+}
+
+img {
+  margin-top: 10px;
+  margin-left: 60px;
+  height: 100px;
+  width: 90px;
+}
+
+.type {
+  width: 20px;
+  height: 20px;
+  margin-top: -40px;
+  margin-left: 39px;
+}
+
+.icon {
+  margin-top: -5px
+}
+
+.attack1 {
+  font-size: 14px;
+  margin-left: 70px;
+  margin-top: 20px;
+}
+
+.energycard {
+  width: 20px;
+  height: 20px;
+  margin-left: -45px;
+  margin-top: -22px;
+}
+
+.energy {
+  width: 20px;
+  height: 20px;
+  margin-right: 200px;
+  margin-top: -40px;
+}
+
+.damage {
+  font-size: 14px;
+  margin-left: 170px;
+  margin-top: -14px;
+}
+
+.attack2 {
+  height: 30px;
+  font-size: 14px;
+  margin-left: 70px;
+  margin-top: 25px;
+}
+
+.energycard2 {
+  margin-top: -22px;
+}
+.energy2 {
+  width: 20px;
+  height: 20px;
+  margin-left: 35px;
+  margin-top: -70px;
+}
+
+.energy3 {
+  width: 20px;
+  height: 20px;
+  margin-left: -40px;
+  margin-top: -70px;
+}
+
+
+.damage2 {
+  font-size: 14px;
+  margin-top: -30px;
+  margin-left: 170px;
+}
+
+
