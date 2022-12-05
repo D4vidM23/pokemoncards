@@ -36,7 +36,7 @@ a {
 .image {
   background-color: white;
   margin-top: 1px;
-  margin-left: 15px;
+  margin-left: 13px;
   height: 120px;
   width: 190px;
   border: 2px solid #8a8a8a;
@@ -110,11 +110,35 @@ img {
   margin-top: -70px;
 }
 
-
 .damage2 {
   font-size: 14px;
   margin-top: -30px;
   margin-left: 170px;
 }
 
+.randomline {
+  background-color: #d3d3d3;
+  margin-left: 20px;
+  width: 180px;
+  height: 1px
+}
+
+.weaknessword {
+  font-size: 9px;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+.energy4 {
+  width: 20px;
+  height: 20px;
+  margin-left: 26px;
+  margin-top: -80px;
+}
+
+.resistance {
+  font-size: 9px;
+  margin-top: -42px;
+  margin-left: 155px;
+}
 
