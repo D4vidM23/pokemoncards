@@ -19,12 +19,14 @@ a {
   font-size: 14px;
   margin-left: 20px;
   margin-top: 5px;
+  font-weight: bold;
 }
 
 .hp {
   font-size: 8px;
   margin-top: -10px;
   margin-left: 135px;
+  font-weight: bold;
 }
 
 .numberhp {
@@ -35,7 +37,7 @@ a {
 
 .image {
   background-color: white;
-  margin-top: 1px;
+  margin-top: -5px;
   margin-left: 13px;
   height: 120px;
   width: 190px;
@@ -57,13 +59,18 @@ img {
 }
 
 .icon {
-  margin-top: -5px
+  margin-top: -25px;
+  margin-bottom: 5px;
+  margin-left: 40px;
+  height: 20px;
+  width: 20px;
 }
 
 .attack1 {
   font-size: 14px;
   margin-left: 70px;
   margin-top: 20px;
+  font-weight: bold;
 }
 
 .energycard {
@@ -84,6 +91,7 @@ img {
   font-size: 14px;
   margin-left: 170px;
   margin-top: -14px;
+  font-weight: bold;
 }
 
 .attack2 {
@@ -91,6 +99,7 @@ img {
   font-size: 14px;
   margin-left: 70px;
   margin-top: 25px;
+  font-weight: bold;
 }
 
 .energycard2 {
@@ -114,11 +123,13 @@ img {
   font-size: 14px;
   margin-top: -30px;
   margin-left: 170px;
+  font-weight: bold;
 }
 
 .randomline {
   background-color: #d3d3d3;
   margin-left: 20px;
+  margin-top: 20px;
   width: 180px;
   height: 1px
 }
@@ -127,18 +138,26 @@ img {
   font-size: 9px;
   margin-top: 10px;
   margin-left: 15px;
+  font-weight: bold;
 }
 
 .energy4 {
   width: 20px;
   height: 20px;
   margin-left: 26px;
-  margin-top: -80px;
+  margin-top: 0px;
 }
 
 .resistance {
   font-size: 9px;
-  margin-top: -42px;
+  margin-top: -33px;
   margin-left: 155px;
+  font-weight: bold;
 }
 
+.energy5 {
+  width: 20px;
+  height: 20px;
+  margin-left: 13px;
+  margin-top: 0px;
+}

@@ -1,0 +1,26 @@
+mixin pokemonCard(pokemon)
+
+    div.card
+        div.name=pokemons.name
+            div.hp HP
+                div.numberhp=pokemons.numberhp
+                img.icon(src=pokemons.icon)
+        div.image
+            img(src=pokemons.image)
+        div.power
+            div.attack1=pokemons.attack1
+            div.energycard
+                img.energy(src=pokemons.energycard)
+            div.damage=pokemons.damage
+        div.power
+            div.attack2=pokemons.attack2
+            div.damage2=pokemons.damage2
+            div.energycard2
+                img.energy2(src=pokemons.energycard2)
+                img.energy3(src=pokemons.energycard)
+        div.randomline
+        div.weakness
+            div.weaknessword weakness
+            img.energy4(src=pokemons.energy4)
+        div.resistance resistance
+            img.energy5(src=pokemons.energy5)
