@@ -3,8 +3,10 @@ extends layout
 block content
   h1 Pokemon Cards
   include mixins/pokemonCard
+  div.container
     each pokemon in pokemons
       +pokemonCard(pokemon)
+
 
 
 

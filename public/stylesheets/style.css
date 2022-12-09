@@ -84,7 +84,7 @@ img {
   width: 20px;
   height: 20px;
   margin-right: 200px;
-  margin-top: -40px;
+  margin-top: 5px;
 }
 
 .damage {
@@ -103,13 +103,13 @@ img {
 }
 
 .energycard2 {
-  margin-top: -22px;
+  margin-top: -12px;
 }
 .energy2 {
   width: 20px;
   height: 20px;
   margin-left: 35px;
-  margin-top: -70px;
+  margin-top: -50px;
 }
 
 .energy3 {
