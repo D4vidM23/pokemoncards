@@ -7,13 +7,169 @@ a {
   color: #00B7FF;
 }
 
-.card {
+.card.psychic {
   height: 300px;
   width: 220px;
   border: 7px solid #ebd143;
-  background-color: #b671b3;
+  background-color: #ad73b0;
   border-radius: 13px;
+  margin-bottom: 10px;
 }
+
+.card.electric {
+  height: 300px;
+  width: 220px;
+  border: 7px solid #ebd143;
+  background-color: #f0c726;
+  border-radius: 13px;
+  margin-bottom: 10px;
+}
+
+.card.fairy {
+  height: 300px;
+  width: 220px;
+  border: 7px solid #ebd143;
+  background-color: #f8c1f6;
+  border-radius: 13px;
+  margin-bottom: 10px;
+}
+
+.card.steel {
+  height: 300px;
+  width: 220px;
+  border: 7px solid #ebd143;
+  background-color: #d6dcde;
+  border-radius: 13px;
+  margin-bottom: 10px;
+}
+
+.card.rock {
+  height: 300px;
+  width: 220px;
+  border: 7px solid #ebd143;
+  background-color: #8a7340;
+  border-radius: 13px;
+  margin-bottom: 10px;
+}
+
+.card.normal {
+  height: 300px;
+  width: 220px;
+  border: 7px solid #ebd143;
+  background-color: #c7c3c1;
+  border-radius: 13px;
+  margin-bottom: 10px;
+}
+
+.card.fighting {
+  height: 300px;
+  width: 220px;
+  border: 7px solid #ebd143;
+  background-color: #8c3222;
+  border-radius: 13px;
+  margin-bottom: 10px;
+}
+
+.card.ice {
+  height: 300px;
+  width: 220px;
+  border: 7px solid #ebd143;
+  background-color: #6bcbe7;
+  border-radius: 13px;
+  margin-bottom: 10px;
+}
+
+.card.grass {
+  height: 300px;
+  width: 220px;
+  border: 7px solid #ebd143;
+  background-color: #7ac040;
+  border-radius: 13px;
+  margin-bottom: 10px;
+}
+
+.card.fire {
+  height: 300px;
+  width: 220px;
+  border: 7px solid #ebd143;
+  background-color: #dc2e0b;
+  border-radius: 13px;
+  margin-bottom: 10px;
+}
+
+.card.water {
+  height: 300px;
+  width: 220px;
+  border: 7px solid #ebd143;
+  background-color: #0372be;
+  border-radius: 13px;
+  margin-bottom: 10px;
+}
+
+.card.bug {
+  height: 300px;
+  width: 220px;
+  border: 7px solid #ebd143;
+  background-color: #898c18;
+  border-radius: 13px;
+  margin-bottom: 10px;
+}
+
+.card.poison {
+  height: 300px;
+  width: 220px;
+  border: 7px solid #ebd143;
+  background-color: #9f56a3;
+  border-radius: 13px;
+  margin-bottom: 10px;
+}
+
+.card.ghost {
+  height: 300px;
+  width: 220px;
+  border: 7px solid #ebd143;
+  background-color: #584e9b;
+  border-radius: 13px;
+  margin-bottom: 10px;
+}
+
+.card.flying {
+  height: 300px;
+  width: 220px;
+  border: 7px solid #ebd143;
+  background-color: #91a6e4;
+  border-radius: 13px;
+  margin-bottom: 10px;
+}
+
+.card.dragon {
+  height: 300px;
+  width: 220px;
+  border: 7px solid #ebd143;
+  background-color: #5b3773;
+  border-radius: 13px;
+  margin-bottom: 10px;
+}
+
+.card.ground {
+  height: 300px;
+  width: 220px;
+  border: 7px solid #ebd143;
+  background-color: #cfb266;
+  border-radius: 13px;
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 .name {
   font-size: 14px;
@@ -160,4 +316,34 @@ img {
   height: 20px;
   margin-left: 13px;
   margin-top: 0px;
+}
+
+.add {
+  height: 40px;
+  width: 75px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  background-color: #398dd2;
+  border-radius: 6px;
+  border-width: 2px;
+  border-color: #d7d7d7;
+  color: white;
+  box-shadow: 1px 1px 1px 1px #4b4b4d;
+  font-size: 12px;
+}
+
+.textco {
+  color: white;
+}
+
+.button.cancel {
+  background-color: #4f98c0;
+  font-weight: bold;
+  color:white;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.button-row {
+  margin-top: 20px;
 }
