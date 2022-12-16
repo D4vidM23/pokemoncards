@@ -3,6 +3,23 @@ mixin pokemonForm(Pokemon, actionURL, mode, title)
     div.form-panel
         div.header= title
             form(action=actionURL method='post')
+            div.form-input.SUI
+                label(for='name') Name:
+                input(type='text' id='name' name='name' )
+            div.form-input
+                label(for='hp') HP:
+                input(type='text' id='hp' name='hp' )
+            div.form-input
+                label(for='Type') Type:
+                select(type='text' id='Type' name='Type' )
+            div.form-input
+                label(for='Image') Image URL:
+                input(type='text' id='Image' name='Image' )
 
-                div.button-row
-                    a.button.cancel(href='/') Cancel
+
+
+        div.button-row
+            a.button.cancel(href='/') Cancel
+
+            button.button.save(type='submit')
+                a.button.save(href='/') Submit

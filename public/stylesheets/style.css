@@ -349,3 +349,24 @@ img {
 .button-row {
   margin-top: 20px;
 }
+
+.form-input {
+  margin: 10px;
+  flex-wrap: wrap;
+  font-weight: bold;
+}
+
+.header {
+  font-weight: bold;
+  width: 30px
+}
+
+.button.save {
+  background-color: #577c91;
+  border-width: 0px;
+  font-weight: bold;
+  color:white;
+  border-radius: 10px;
+  padding: 5px;
+  margin-left: 20px
+}

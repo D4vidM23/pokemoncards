@@ -1,4 +1,5 @@
 const {Pokemon} = require('../models')
+const cardType = ['psychic']
 
 module.exports.viewAll = async function(req,res,next) {
     const pokemons = await Pokemon.findAll();
@@ -6,21 +7,21 @@ module.exports.viewAll = async function(req,res,next) {
 }
 
 module.exports.renderAddForm = function(req,res) {
-    const pokemon = {
-        name:"",
-        hp:"",
-        type:"",
-        image:"",
-        attack1:"",
-        energycard:"",
-        damage:"",
-        attack2:"",
-        energycard2:"",
-        damage2:"",
-        weakness:"",
-        resistance:"",
+    const pokemonadd = {
+        name: "",
+        hp: "",
+        type: "",
+        image: "",
+        attack1: "",
+        energycard: "",
+        damage: "",
+        attack2: "",
+        energycard2: "",
+        damage2: "",
+        weakness: "",
+        resistance: "",
     };
-    res.render('add', {pokemon})
+    res.render('add', {pokemonadd})
 }
 
 module.exports.addPokemon = async function(req, res){
@@ -42,6 +43,19 @@ module.exports.addPokemon = async function(req, res){
         });
     res.redirect('/')
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 function getCardClass(type){
