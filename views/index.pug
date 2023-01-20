@@ -2,10 +2,10 @@ extends layout
 
 block content
   h1 Pokemon Cards
-  button.add
-    a.textco(href='/add') Add Pokemon
   include mixins/pokemonCard
   div.container
+    div.add-button-row
+      a.button.save(href="/add") Add Restaurant
     each pokemon in pokemons
       +pokemonCard(pokemon)
 

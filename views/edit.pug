@@ -1,0 +1,14 @@
+mixin pokemonForm(Pokemon, actionURL, mode, title)
+
+    div.form-panel
+        div.header= title
+            form(action=actionURL method='post')
+            div.form-input.SUI
+                label(for='name') Name:
+                input(type='text' id='name' name='name' value=pokemon.name )
+
+        div.button-row
+            a.button.cancel(href='/') Cancel
+
+            button.button.save(type='submit')
+                a.button.save(href='/') Submit

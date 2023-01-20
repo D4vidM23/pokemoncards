@@ -6,7 +6,30 @@ module.exports.viewAll = async function(req,res,next) {
     res.render('index', {pokemons});
 }
 
-module.exports.renderAddForm = function(req,res) {
+module.exports.renderEditForm = async function(req, res, next){
+    const Pokemon = await Pokemon.findByPk(
+        req.params.id
+    );
+    res.render('edit', {Pokemon})
+}
+
+module.exports.updatePoke = async function(req, res) {
+    await Pokemon.update(
+        {
+            name: req.body.name
+        },
+            {
+            where:
+                {
+                    id: req.params.id
+                }
+        });
+    res.redirect('/')
+}
+
+
+
+module.exports.renderAddForm = async function(req,res) {
     const pokemonadd = {
         name: "",
         hp: "",
@@ -39,11 +62,9 @@ module.exports.addPokemon = async function(req, res){
             damage2:req.body.damage2,
             weakness:req.body.energy4,
             resistance:req.body.energy5,
-            cardClass: getCardClass(req.body.type),
         });
     res.redirect('/')
 }
-
 
 
 
@@ -95,6 +116,11 @@ function getCardClass(type){
         return "ghost"
     }
 }
+
+
+
+
+
 //
 // module.exports.viewAll = function(req,res,next) {
 //     const pokemon = {
